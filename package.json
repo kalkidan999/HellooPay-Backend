@@ -1,0 +1,34 @@
+{
+  "name": "helloopay-backend",
+  "version": "1.0.0",
+  "description": "backend for handling buisness logic ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kalkidan999/Helloomarket-recent-items-FrontEnd-React.git"
+  },
+  "keywords": [
+    "HellOOPay"
+  ],
+  "author": "Kalkidan Demes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalkidan999/Helloomarket-recent-items-FrontEnd-React/issues"
+  },
+  "homepage": "https://github.com/kalkidan999/Helloomarket-recent-items-FrontEnd-React#readme",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "mongoose": "^6.8.0",
+    "node-fetch": "^2.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
